@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03E4C072ADB0A3500742A32 /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C052ADB0A3500742A32 /* RestaurantCollectionViewCell.swift */; };
+		B03E4C082ADB0A3500742A32 /* RestaurantCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B03E4C062ADB0A3500742A32 /* RestaurantCollectionViewCell.xib */; };
+		B03E4C0B2ADB17F100742A32 /* RestaurantBE.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C0A2ADB17F100742A32 /* RestaurantBE.swift */; };
+		B03E4C0F2ADB217800742A32 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C0E2ADB217800742A32 /* CategoryCollectionViewCell.swift */; };
+		B03E4C112ADB25E100742A32 /* RestaurantCatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C102ADB25E100742A32 /* RestaurantCatCollectionViewCell.swift */; };
+		B03E4C132ADB41B900742A32 /* CreateReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C122ADB41B900742A32 /* CreateReviewViewController.swift */; };
+		B03E4C152ADB49B200742A32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C142ADB49B200742A32 /* LoginViewController.swift */; };
+		B03E4C172ADB730D00742A32 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E4C162ADB730D00742A32 /* RegisterViewController.swift */; };
 		B0AD94D92AB9D8AC005981CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AD94D82AB9D8AC005981CE /* AppDelegate.swift */; };
 		B0AD94DB2AB9D8AC005981CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AD94DA2AB9D8AC005981CE /* SceneDelegate.swift */; };
 		B0AD94DD2AB9D8AC005981CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AD94DC2AB9D8AC005981CE /* ViewController.swift */; };
@@ -14,9 +22,18 @@
 		B0AD94E32AB9D8AC005981CE /* stv_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0AD94E12AB9D8AC005981CE /* stv_app.xcdatamodeld */; };
 		B0AD94E52AB9D8AE005981CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AD94E42AB9D8AE005981CE /* Assets.xcassets */; };
 		B0AD94E82AB9D8AE005981CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AD94E62AB9D8AE005981CE /* LaunchScreen.storyboard */; };
+		B0C7C7F02ADA2123006A1433 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C7EF2ADA2123006A1433 /* RestaurantViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B03E4C052ADB0A3500742A32 /* RestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
+		B03E4C062ADB0A3500742A32 /* RestaurantCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCollectionViewCell.xib; sourceTree = "<group>"; };
+		B03E4C0A2ADB17F100742A32 /* RestaurantBE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBE.swift; sourceTree = "<group>"; };
+		B03E4C0E2ADB217800742A32 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		B03E4C102ADB25E100742A32 /* RestaurantCatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCatCollectionViewCell.swift; sourceTree = "<group>"; };
+		B03E4C122ADB41B900742A32 /* CreateReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReviewViewController.swift; sourceTree = "<group>"; };
+		B03E4C142ADB49B200742A32 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B03E4C162ADB730D00742A32 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B0AD94D52AB9D8AC005981CE /* stv_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stv_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AD94D82AB9D8AC005981CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0AD94DA2AB9D8AC005981CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +43,7 @@
 		B0AD94E42AB9D8AE005981CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0AD94E72AB9D8AE005981CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0AD94E92AB9D8AE005981CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C7C7EF2ADA2123006A1433 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B03E4C092ADB179D00742A32 /* BE */ = {
+			isa = PBXGroup;
+			children = (
+				B03E4C0A2ADB17F100742A32 /* RestaurantBE.swift */,
+			);
+			path = BE;
+			sourceTree = "<group>";
+		};
 		B0AD94CC2AB9D8AC005981CE = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +84,23 @@
 		B0AD94D72AB9D8AC005981CE /* stv_app */ = {
 			isa = PBXGroup;
 			children = (
+				B03E4C092ADB179D00742A32 /* BE */,
 				B0AD94D82AB9D8AC005981CE /* AppDelegate.swift */,
 				B0AD94DA2AB9D8AC005981CE /* SceneDelegate.swift */,
 				B0AD94DC2AB9D8AC005981CE /* ViewController.swift */,
 				B0AD94DE2AB9D8AC005981CE /* Main.storyboard */,
+				B03E4C052ADB0A3500742A32 /* RestaurantCollectionViewCell.swift */,
+				B03E4C062ADB0A3500742A32 /* RestaurantCollectionViewCell.xib */,
 				B0AD94E42AB9D8AE005981CE /* Assets.xcassets */,
 				B0AD94E62AB9D8AE005981CE /* LaunchScreen.storyboard */,
 				B0AD94E92AB9D8AE005981CE /* Info.plist */,
 				B0AD94E12AB9D8AC005981CE /* stv_app.xcdatamodeld */,
+				B0C7C7EF2ADA2123006A1433 /* RestaurantViewCell.swift */,
+				B03E4C0E2ADB217800742A32 /* CategoryCollectionViewCell.swift */,
+				B03E4C102ADB25E100742A32 /* RestaurantCatCollectionViewCell.swift */,
+				B03E4C122ADB41B900742A32 /* CreateReviewViewController.swift */,
+				B03E4C142ADB49B200742A32 /* LoginViewController.swift */,
+				B03E4C162ADB730D00742A32 /* RegisterViewController.swift */,
 			);
 			path = stv_app;
 			sourceTree = "<group>";
@@ -130,6 +165,7 @@
 			files = (
 				B0AD94E82AB9D8AE005981CE /* LaunchScreen.storyboard in Resources */,
 				B0AD94E52AB9D8AE005981CE /* Assets.xcassets in Resources */,
+				B03E4C082ADB0A3500742A32 /* RestaurantCollectionViewCell.xib in Resources */,
 				B0AD94E02AB9D8AC005981CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03E4C0F2ADB217800742A32 /* CategoryCollectionViewCell.swift in Sources */,
+				B0C7C7F02ADA2123006A1433 /* RestaurantViewCell.swift in Sources */,
 				B0AD94DD2AB9D8AC005981CE /* ViewController.swift in Sources */,
+				B03E4C172ADB730D00742A32 /* RegisterViewController.swift in Sources */,
 				B0AD94E32AB9D8AC005981CE /* stv_app.xcdatamodeld in Sources */,
+				B03E4C072ADB0A3500742A32 /* RestaurantCollectionViewCell.swift in Sources */,
+				B03E4C112ADB25E100742A32 /* RestaurantCatCollectionViewCell.swift in Sources */,
 				B0AD94D92AB9D8AC005981CE /* AppDelegate.swift in Sources */,
 				B0AD94DB2AB9D8AC005981CE /* SceneDelegate.swift in Sources */,
+				B03E4C132ADB41B900742A32 /* CreateReviewViewController.swift in Sources */,
+				B03E4C0B2ADB17F100742A32 /* RestaurantBE.swift in Sources */,
+				B03E4C152ADB49B200742A32 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
